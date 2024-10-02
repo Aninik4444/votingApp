@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const { type } = require('os');
-//const bcryptjs = require('bcryptjs');
+const {type} = require('os');
+// const bcryptjs = require('bcrypt');
 
 // Defining the person schema
 const candidateSchema = new mongoose.Schema({

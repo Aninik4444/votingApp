@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // Import the router files
 const userRoutes = require('./routes/userRoutes');
 // use the routers
-app.use('/user',userRoutes);
+app.use('/user',userRoutes); 
 
 
 app.listen(PORT, ()=>{
